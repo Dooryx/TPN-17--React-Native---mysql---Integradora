@@ -1,0 +1,12 @@
+{
+    "presets": ["module:metro-react-native-babel-preset"],
+    "plugins": [
+      [
+        "module:react-native-reanimated/plugin",
+        {
+          "globals": ["__reanimatedWorkletInit", "__reanimatedWorkletMapping"]
+        }
+      ]
+    ]
+  }
+  
